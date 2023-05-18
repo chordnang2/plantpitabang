@@ -1,0 +1,21 @@
+[0;1;32m●[0m systemd-journald.service - Journal Service
+     Loaded: loaded (/lib/systemd/system/systemd-journald.service; static)
+     Active: [0;1;32mactive (running)[0m since Sat 2023-05-06 05:51:42 WITA; 3h 57min ago
+TriggeredBy: [0;1;32m●[0m systemd-journald.socket
+             [0;1;32m●[0m systemd-journald-dev-log.socket
+             [0;1;32m●[0m systemd-journald-audit.socket
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+   Main PID: 341 (systemd-journal)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 26147)
+     Memory: 71.7M
+        CPU: 1.071s
+     CGroup: /system.slice/systemd-journald.service
+             └─341 /lib/systemd/systemd-journald
+
+Mei 06 05:51:42 nuzula-Lenovo-V14-G2-ALC systemd-journald[341]: Journal started
+Mei 06 05:51:42 nuzula-Lenovo-V14-G2-ALC systemd-journald[341]: Runtime Journal (/run/log/journal/d358caa000af4b9994e128d3b07f24f3) is 8.0M, max 218.6M, 210.6M free.
+Mei 06 05:51:42 nuzula-Lenovo-V14-G2-ALC systemd-journald[341]: Time spent on flushing to /var/log/journal/d358caa000af4b9994e128d3b07f24f3 is 124.969ms for 1066 entries.
+Mei 06 05:51:42 nuzula-Lenovo-V14-G2-ALC systemd-journald[341]: System Journal (/var/log/journal/d358caa000af4b9994e128d3b07f24f3) is 3.9G, max 4.0G, 7.8M free.
+Notice: journal has been rotated since unit was started, output may be incomplete.
